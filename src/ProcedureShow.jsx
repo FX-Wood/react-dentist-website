@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProcedureShow(props) {
     console.log(props)
-    let proc = props.tx.find(s => s.id == props.match.params.id)
+    let proc = props.tx.find(s => s.id === parseInt(props.match.params.id))
     console.log(proc)
     return (
         <>
