@@ -8,6 +8,7 @@ class App extends Component {
         <p>
           Foooooooooooooo! Farge!
         </p>
+      
       </div>
     );
   }
