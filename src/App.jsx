@@ -24,7 +24,7 @@ class App extends Component {
           </nav>
           <Route exact path='/' render={() => <Home />} />
           <Route path='/procedures' render={() => <Procedures tx={tx}/>} />
-          <Route path='/contact' render={() => Contact} />
+          <Route path='/contact' render={() => <Contact />} />
         </div>
       </BrowserRouter>
     );
